@@ -1,0 +1,96 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #f1f1f1;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: #403060;
+  background-image: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  margin: 50px 0;
+  text-align: center;
+  font-size: 50px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+}
+
+form {
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+  max-width: 1200px;
+  min-width: 400px;
+}
+form label {
+  display: block;
+  font-size: 25px;
+}
+form input {
+  width: 100%;
+  padding: 15px;
+  font-size: 20px;
+  margin: 10px 0;
+}
+form button {
+  padding: 15px;
+  font-size: 20px;
+}
+.liste-todo {
+  list-style-type: none;
+  margin: 20px auto 0;
+  width: 70%;
+  max-width: 1200px;
+  min-width: 400px;
+}
+li {
+  font-size: 20px;
+  width: 100%;
+  background: #f1f1f1;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  color: #333;
+  margin: 5px 0;
+}
+li input {
+  width: 40px;
+  height: 40px;
+  margin-left: 15px;
+}
+li button {
+  margin-left: auto;
+  padding: 5px;
+  border: 1px solid #f1f1f1;
+}
+button img {
+  width: 40px;
+  pointer-events: none;
+}
+li span {
+  font-size: 25px;
+  margin-left: 20px;
+}
+/* anim rayure */
+li.finDeTache span {
+  text-decoration: line-through;
+}
